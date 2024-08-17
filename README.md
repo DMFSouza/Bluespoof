@@ -47,8 +47,7 @@ To convert the magnetic stripe code into audio that could emulate the same frequ
 <br>
 The final result can be seen in the video below where I used my test smartphone running Kali Nethunter on Corvus OS. My magnetic stripe reader has a bad contact, which is why it takes time to identify, but with new readers, the communication is instantaneous.
 <br>
-https://github.com/user-attachments/assets/ea608bd3-16f4-462a-8b3b-b075d1cb407e
-<br>
-https://github.com/user-attachments/assets/6f843f7d-e757-4f58-920a-60ffd3cc67aa
+https://github.com/user-attachments/assets/759d7577-cdc3-44a8-8580-605ac6bddbae
+
 
 
