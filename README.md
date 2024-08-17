@@ -1,4 +1,4 @@
-# Magspoof HUN73R.0047
+# Bluespoof HUN73R.0047
 
 <strong>Board designed by</strong> David Miguel (HUN73R.0047) (https://github.com/DMFSouza).
 <br><br>
