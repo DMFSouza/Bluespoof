@@ -4,9 +4,11 @@
 <br><br>
 <strong>If you enjoyed this project, consider buying me a coffee:</strong>
 <br>
-<a href="https://www.buymeacoffee.com/davidmiguel">
-  <img src="https://github.com/DMFSouza/EvilCrowRF_HUN73R.0047/blob/main/images/bmc_qr.png" alt="coffee" width="350" height="350">
-</a>
+<div align="center">
+  <a href="https://www.buymeacoffee.com/davidmiguel">
+    <img src="https://github.com/DMFSouza/EvilCrowRF_HUN73R.0047/blob/main/images/bmc_qr.png" alt="coffee" width="350" height="350">
+  </a>
+</div>
 <br>
 </ul>
 <strong>To check the original Code:</strong> Salmg ( https://github.com/salmg/ViolentMag).
@@ -46,8 +48,17 @@ So, I had to adapt a lithium battery connected to a USB Type-C input for chargin
 To convert the magnetic stripe code into audio that could emulate the same frequency, a Python script was used to convert the stripe information into a .WAV audio file. This file is played in a loop, turning the audio into magnetic information.
 <br>
 The final result can be seen in the video below where I used my test smartphone running Kali Nethunter on Corvus OS. My magnetic stripe reader has a bad contact, which is why it takes time to identify, but with new readers, the communication is instantaneous.
+<br><br>
+<div align="center">
+  
+https://github.com/user-attachments/assets/3df7535c-e141-4439-8d8b-f1624d242ba7
+
+</div>
 <br>
-https://github.com/user-attachments/assets/759d7577-cdc3-44a8-8580-605ac6bddbae
+<div align="center">
+  
+https://github.com/user-attachments/assets/076189f3-781b-4e09-b896-d31a9f4077ce
 
-
-
+</div>
+<br>
+This project is intended for educational and cybersecurity research purposes only. The author is not responsible for any misuse.
