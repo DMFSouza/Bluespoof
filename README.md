@@ -8,12 +8,6 @@
   <img src="https://github.com/DMFSouza/EvilCrowRF_HUN73R.0047/blob/main/images/bmc_qr.png" alt="coffee" width="350" height="350">
 </a>
 <br>
-<strong>If you're Brazilian, consider using Pix key:</strong>
-<br>
-<a href="#">
-  <img src="https://github.com/DMFSouza/EvilCrowRF_HUN73R.0047/blob/main/images/qr-code.png" alt="coffee" width="350" height="350">
-</a>
-<br>
 </ul>
 <strong>To check the original Code:</strong> Salmg ( https://github.com/salmg/ViolentMag).
 
@@ -21,35 +15,40 @@
 # Introduction<a id="introduction"></a>
 The initial idea was to use a simple Bluetooth headset connected to an antenna to simulate magnetic stripe frequencies. For this, a basic headset was used. 
 <br><br>
-<img src="https://github.com/DMFSouza/Magspoof/blob/main/data/898e2897-2945-49ac-b6f6-38a5da553caa.jpg" width="250" height="200">
+<div align="center">
+  <img src="https://github.com/DMFSouza/Magspoof/blob/main/data/898e2897-2945-49ac-b6f6-38a5da553caa.jpg" width="50%">
+</div>
 <br><br>
 During prototyping, a copper-clad phenolic board was used where, with the help of a pen, I drew the antenna design and marked where the headset and power source would be positioned.
 <br>
-<img src="https://github.com/DMFSouza/Magspoof/blob/main/data/ab573aa7-ce8b-439f-9b23-a83315ce5656.jpg" width="250" height="250">
-<ul>
-
-
-<li>...</li>
-
-</ul>
-
-
-# Installation<a id="installation"></a>
-
-## 1) SD Files<a id="sdfiles"></a>
-- Download and place the 'URH' folder on a MicroSD card.
-- Download and place the 'HTML' folder on a MicroSD card.
-
- 
-## 2) Firmware<a id="firmware"></a>
-
-- Install the .bin from OTA
-- or -->
-- Download & execute ESPHome-Flasher
-- Select COM port
-- Select .bin file
-- Press Flash ESP (You may need to put your device in download mode)
-
-<a href="https://github.com/esphome/esphome-flasher/releases">ESPHome-Flasher</a>
+<div align="center">
+  <img src="https://github.com/DMFSouza/Magspoof/blob/main/data/ab573aa7-ce8b-439f-9b23-a83315ce5656.jpg" width="50%">
+</div>
+<br>
+After completing the design, the board was etched with ferric chloride, resulting in something similar to this.
+<br>
+<div align="center">
+  <img src="https://github.com/DMFSouza/Magspoof/blob/main/data/1f75f965-3eed-4fe9-ace5-d12154c74889.jpg" width="50%">
+</div>
+<br>
+In the initial project, I intended to use a button cell module, but soon realized that this module would not provide the necessary current for the project.
+<br>
+<div align="center">
+  <img src="https://github.com/DMFSouza/Magspoof/blob/main/data/295d5e79-9227-432a-b4ba-27324cd61ce1.jpg" width="50%">
+</div>
+<br>
+So, I had to adapt a lithium battery connected to a USB Type-C input for charging. I also soldered a selector switch to control when the board is powered on or off. Everything was glued with hot glue; the appearance isn’t great, but it is functional.
+<br>
+<div align="center">
+  <img src="https://github.com/DMFSouza/Magspoof/blob/main/data/WhatsApp%20Image%202024-08-17%20at%2019.04.53.jpeg" width="50%">
+</div>
+<br>
+To convert the magnetic stripe code into audio that could emulate the same frequency, a Python script was used to convert the stripe information into a .WAV audio file. This file is played in a loop, turning the audio into magnetic information.
+<br>
+The final result can be seen in the video below where I used my test smartphone running Kali Nethunter on Corvus OS. My magnetic stripe reader has a bad contact, which is why it takes time to identify, but with new readers, the communication is instantaneous.
+<br>
+https://github.com/user-attachments/assets/ea608bd3-16f4-462a-8b3b-b075d1cb407e
+<br>
+https://github.com/user-attachments/assets/6f843f7d-e757-4f58-920a-60ffd3cc67aa
 
 
