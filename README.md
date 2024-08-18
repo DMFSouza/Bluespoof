@@ -47,18 +47,16 @@ So, I had to adapt a lithium battery connected to a USB Type-C input for chargin
 <br>
 To convert the magnetic stripe code into audio that could emulate the same frequency, a Python script was used to convert the stripe information into a .WAV audio file. This file is played in a loop, turning the audio into magnetic information.
 <br>
-The final result can be seen in the video below where I used my test smartphone running Kali Nethunter on Corvus OS. My magnetic stripe reader has a bad contact, which is why it takes time to identify, but with new readers, the communication is instantaneous.
+The final result can be seen in the video below where I used my test smartphone running Kali Nethunter on Corvus OS. The communication is instantaneous.
 <br><br>
 <div align="center">
-  
-https://github.com/user-attachments/assets/3df7535c-e141-4439-8d8b-f1624d242ba7
+
+
+
+https://github.com/user-attachments/assets/7f756582-3c41-4557-8386-d3658fc87949
+
 
 </div>
 <br>
-<div align="center">
-  
-https://github.com/user-attachments/assets/076189f3-781b-4e09-b896-d31a9f4077ce
-
-</div>
 <br>
 This project is intended for educational and cybersecurity research purposes only. The author is not responsible for any misuse.
